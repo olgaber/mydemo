@@ -1,0 +1,587 @@
+/*fonts
+------------*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+/*Default Browser Settings Reset
+--------------------------------*/
+
+html, body, div, h1, h2, h3, p, ul, li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body{
+	font-size: 100%;
+	background:#ebebeb;
+}
+
+header{
+	width:100%;
+	background: #373c3f;
+	height:6em;
+}
+
+p, h1, h2, h3, a{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*menu style
+------------*/
+
+nav ul{
+	overflow: hidden;
+}
+
+nav ul li{
+	float:left;
+	display:block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color:white;
+}
+
+nav a#pull{
+		display:none;
+	}
+
+/*banner styles
+---------------*/
+
+.banner{
+	background: #12abc0;
+	color: white;
+}
+
+.banner a{
+	text-decoration: none;
+	color:#9fd3dd;
+	display: block;
+}
+
+/*dark_violet section styles
+----------------------------*/
+
+.wrapper{
+	overflow: hidden;
+}
+
+.dark_violet{
+	
+	background: #27212c;
+}
+
+.dark_violet p{
+	color:#9282a0;
+}
+
+/*pink section styles
+---------------------*/
+
+.pink{
+	background: #bc3183;
+}
+
+.wrapper{
+	clear: both;
+}
+
+/*light violet section styles
+-----------------------------*/
+
+.light_violet{
+	background: #5b0fa1;
+}
+
+/*article styles
+----------------*/
+
+article a{
+	color: #12abc0;
+	text-decoration: none; 
+}
+
+/* extra wide screen styles
+-----------------------------------------------------------------*/
+@media only screen and (min-width: 980px){
+	body{
+		width:100%;
+	}
+
+	/*navigation styles
+	--------------------*/
+
+	.mobile_nav{
+		display:none;
+	}
+
+	nav ul{
+		padding-top: 2.7em;
+		padding-left: 4.5em;
+	}
+
+	nav ul li a {
+		font-size: 0.905em;
+		padding-right: 2em;
+		letter-spacing: 0.01em;
+	}
+
+	/*banner styles
+	---------------*/
+
+	.banner{
+		height:36.25em;
+	}
+
+	.banner h2{
+		padding-left: 1.25em;
+		padding-top: 3.15em;
+		font-size: 3.85em;
+		font-weight:normal;
+		line-height: 1.1;
+	}
+
+	.banner a{
+		font-size: 2.22em;
+		padding-left: 2.20em;
+		padding-top: 1.25em;
+	}
+
+	/*dark_violet section styles
+	----------------------------*/
+
+	.dark_violet{
+		width:78%;
+		height:15.25em;
+		float:left;
+	}
+
+	.dark_violet p{
+		font-size:1.95em; 
+		padding-top: 3.4em; 
+		padding-left: 2.5em;
+	}
+
+	/*pink section styles*/
+
+	.pink{
+		width:22%;
+		float:right;
+		height: 15.22em;
+	}
+	
+	/*light violet section styles
+	-----------------------------*/
+
+	.light_violet{
+		width:33.333%;
+		height:18.25em;
+		float:left;
+	}
+
+	/*images styles
+	---------------*/
+
+	.bridge{
+		width: 33.333%;
+		height: 18.25em;
+		float:left;
+		background: url("images/bridgе_1024.jpg") no-repeat;
+		background-size: cover;
+	}
+
+	.girl{
+		width: 33.333%;
+		float:right;
+		height: 18.25em;
+		background: url("images/girl_1024.jpg") no-repeat;
+		background-size: cover;
+	}
+
+	/*article styles
+	----------------*/
+	
+	article a{
+		display: block;
+		font-size: 1.85em;
+		padding-left: 2.25em;
+		padding-top: 1.75em;
+	}
+
+	.columns{
+		display: block;
+		-ms-column-count: 2;
+		-o-column-count: 2;
+		-moz-column-count: 2;
+		-webkit-column-count:2;
+		column-count:2;
+		-ms-column-gap: 60px;
+		-o-column-gap: 60px;
+		-moz-column-gap: 60px;
+		-webkit-column-gap:60px;
+		column-gap:60px;
+		padding-left: 4.15em;
+		padding-right: 4.15em;
+		padding-top: 1.2em;
+		margin-bottom: 10em;
+	}
+
+	.columns p{
+		font-size: 0.875em;
+		color: #515151;
+		line-height: 1.95em;
+	}
+
+}
+
+/* desktop styles
+-----------------------------------------------------------------*/
+
+@media only screen and (min-width: 641px) and (max-width: 979px){
+	body{
+		width:100%;
+		background: orange;
+	}
+
+	/*navigation styles
+	--------------------*/
+
+	.mobile_nav{
+		display:none;
+	}
+
+	nav ul{
+		padding-top: 2.5em;
+		padding-left: 4.5em;
+	}
+
+	nav ul li a {
+		font-size: 0.905em;
+		padding-right: 2em;
+		letter-spacing: 0.01em;
+	}
+
+	/*banner styles
+	---------------*/
+
+	.banner{
+		height:34.4em;
+	}
+
+	.banner h2{
+		padding-left: 1.24em;
+		padding-top: 3em;
+		font-size: 3.75em;
+		font-weight:normal;
+		line-height: 1.1;
+	}
+
+	.banner a{
+		font-size: 2.1em;
+		padding-left: 2.20em;
+		padding-top: 1.25em;
+	}
+
+	/*dark_violet section styles
+	----------------------------*/
+
+	.dark_violet{
+		width:79%;
+		height:14.55em;
+		float:left;
+	}
+
+	.dark_violet p{
+		font-size:1.87em; 
+		padding-top: 3.4em; 
+		padding-left: 2.75em;
+	}
+
+	/*pink section styles*/
+
+	.pink{
+		width:21%;
+		float:right;
+		height: 14.55em;
+	}
+	
+	/*light violet section styles
+	-----------------------------*/
+
+	.light_violet{
+		width:33.333%;
+		height:17.5em;
+		float:left;
+	}
+
+	/*images styles
+	---------------*/
+
+	.bridge{
+		width: 33.333%;
+		height: 17.5em;
+		float:left;
+		background: url("images/bridge_980.jpg") no-repeat;
+		background-size: cover;
+	}
+
+	.girl{
+		width: 33.333%;
+		float:right;
+		height: 17.5em;
+		background: url("images/girl_980.jpg") no-repeat;
+		background-size: cover;
+	}
+
+	/*article styles
+	----------------*/
+	
+	article a{
+		display: block;
+		font-size: 1.85em;
+		padding-left: 2.5em;
+		padding-top: 2.25em;
+	}
+
+	.columns{
+		display: block;
+		-ms-column-count: 2;
+		-o-column-count: 2;
+		-moz-column-count: 2;
+		-webkit-column-count:2;
+		column-count:2;
+		-ms-column-gap: 60px;
+		-o-column-gap: 60px;
+		-moz-column-gap: 60px;
+		-webkit-column-gap:60px;
+		column-gap:60px;
+		padding-left: 4.75em;
+		padding-right: 4.75em;
+		padding-top: 1.2em;
+		margin-bottom: 10em;
+	}
+
+	.columns p{
+		font-size: 0.875em;
+		color: #515151;
+		line-height: 1.95em;
+		padding-bottom: 2em;
+	}
+}
+
+/* tablet styles
+-----------------------------------------------------------------*/
+
+@media only screen and (min-width: 421px) and (max-width: 640px){
+	body{
+		width:100%;
+		background: green;
+	}
+
+	header{
+		height:4.7em;
+		background: #2c323e;
+	}
+
+	/*navigation styles
+	--------------------*/
+
+	.mobile_nav{
+		display: block;
+		overflow: hidden;	
+	}
+
+	.mobile_nav p{
+		float:left;
+		color:white;
+		font-size:1.5em;
+		padding-top: 1em;
+		padding-left: 1.5em;
+	}
+
+	.mobile_nav a#pull{ 
+		display:block;
+		background-color: black;		
+		float:right;	
+	}
+
+	.mobile_nav img{
+		padding: 1.2em;		
+	}
+
+		nav ul{
+		position: relative;
+		display: none;
+		margin-top: 0;
+		z-index:999;
+	}
+
+	nav ul li{
+		clear: both;
+		background: #2c323e;
+		width:100%;
+		height:40px;
+		border-bottom: 1px solid #363940;
+	}
+
+	nav ul li:first-child{
+		border-top: 1px solid #363940;
+	}
+
+	nav ul li:hover{
+		background: #363940;
+		cursor: pointer;
+	}
+
+	nav ul li a{
+		display:  block;
+		text-transform: capitalize;
+		font-size: 1.15em;
+		padding-top: 0.5em;
+		padding-left: 3.5em;
+	}
+
+
+
+
+	/*banner styles
+	----------------*/
+
+	.banner{
+		height:21.75em;
+	}
+
+	.banner h2{
+		padding-left: 1.24em;
+		padding-top: 2.75em;
+		font-size: 2.45em;
+		font-weight:normal;
+		line-height: 1.1;
+	}
+
+	.banner a{
+		font-size: 1.375em;
+		padding-left: 2.20em;
+		padding-top: 1.25em;
+	}
+	
+	/*dark_violet section styles
+	----------------------------*/
+
+	.dark_violet{
+		width:80%;
+		height:9.3em;
+		float:left;
+	}
+
+	.dark_violet p{
+		font-size:1.22em; 
+		padding-top: 3.4em; 
+		padding-left: 2.75em;
+	}
+
+	/*pink section styles*/
+
+	.pink{
+		width:20%;
+		float:right;
+		height: 9.3em;
+	}
+
+	/*light violet section styles
+	-----------------------------*/
+
+	.light_violet{
+		width:100%;
+		height:34.5em;
+	}
+
+	/*images styles
+	---------------*/
+
+	.bridge{
+		width: 100%;
+		height: 34.5em;
+		background: url("images/bridge_980.jpg") no-repeat;
+		background-size: cover;
+	}
+
+	.girl{
+		width: 100%;
+		height: 34.5em;
+		background: url("images/girl_980.jpg") no-repeat;
+		background-size: cover;
+	}
+
+
+	/*article styles
+	----------------*/
+	
+	article a{
+		display: block;
+		font-size: 1.85em;
+		padding-left: 2.5em;
+		padding-top: 2.25em;
+	}
+
+	.columns{
+		display: block;
+		padding-left: 4.75em;
+		padding-right: 4.75em;
+		padding-top: 2.5em;
+		margin-bottom: 3em;
+	}
+
+	.columns p{
+		font-size: 1.375em;
+		color: #515151;
+		line-height: 2em;
+		padding-bottom: 2em;
+	}
+
+	.columns p.extra{
+		display:none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* mobile styles
+-----------------------------------------------------------------*/
+
+@media only screen and (max-width: 429px){
+	body{
+		width:100%;
+		background: orange;
+	}
+}
